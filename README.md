@@ -14,15 +14,22 @@ Codes for AFT modeling with a semiparametric skewed error distribution. There ar
 Computation for P(survival time > t) given covariates.
 
 survival_prob_NSNSM: Survival probability based on AFT with a semiparametric skew-normal scale mixture error
+
 survival_prob_SN: Survival probability based on AFT with a skew-normal error
+
 survival_prob_Normal: Survival probability based on AFT with a normal error
+
 survival_prob_Gehan: Survival probability based on semiparametric AFT (Gehan) 
+
 survival_prob_GEE: Survival probability based on semiparametric AFT (GEE) 
 
 # Simulation
 Codes for simulation studies:
+
 simulation1
+
 simulation2
+
 simulation3
 
 # Lung_cancer.R
