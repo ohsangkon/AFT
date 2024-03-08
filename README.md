@@ -2,6 +2,9 @@
 The accelerated failure time (AFT) model is widely used to analyze relationships between variables in the presence of censored observations. However, this model relies on some assumptions such as the error distribution, which can lead to biased or inefficient estimates if these assumptions are violated. In order to overcome this challenge, we propose a novel approach that incorporates a semiparametric skewnormal scale mixture distribution for the error term in the AFT model. By allowing for more flexibility and robustness, this approach reduces the risk of misspecification
 and improves the accuracy of parameter estimation. 
 
+(Oh, S., Lee, H., Kang, S., and Seo, B. (2024). Adaptive accelerated failure time modeling with a semiparametric skewed error distribution. arXiv:2402.02128.)
+
+
 # AFT_NSNSM.R
 Basic codes for Adaptive AFT modeling with a semiparametric skew-normal scale mixture error distribution. There are 9 functions in this file. AFT_NSNSM function is the main function, and others are required to save if you want to use AFT_NSNSM function.
 
