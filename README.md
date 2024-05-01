@@ -5,11 +5,12 @@ and improves the accuracy of parameter estimation.
 (Oh, S., Lee, H., Kang, S., and Seo, B. (2024). Adaptive accelerated failure time modeling with a semiparametric skewed error distribution. arXiv:2402.02128.)
 
 
+# AFT_SN.R
+AFT_SN function is used for initial values for AFT_NSNSM function. These are codes for AFT modeling with a skew-normal error distribution. There are 4 functions in this file. AFT_SN function is the main function, and others are required to save if you want to use AFT_SN function. 
+
 # AFT_NSNSM.R
 Basic codes for Adaptive AFT modeling with a semiparametric skew-normal scale mixture error distribution. There are 9 functions in this file. AFT_NSNSM function is the main function, and others are required to save if you want to use AFT_NSNSM function.
 
-# AFT_SN.R
-Codes for AFT modeling with a skew-normal error distribution. There are 4 functions in this file. AFT_SN function is the main function, and others are required to save if you want to use AFT_SN function. Furthermore, AFT_SN function is used for initial values for AFT_NSNSM function.
 
 # Survival probability.R
 Computation for P(survival time > t) given covariates.
